@@ -88,7 +88,7 @@ int main()
 		cout << "Enter month of your Birthday\n";
 		cin >> month;
 
-		if (day && month)
+		if ((day != 0) && (month != 0))
 		{
 			num = 100 * month + day;
 
